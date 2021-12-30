@@ -1,1 +1,1 @@
-https://github.com/CCianfloneDev/HTML-CSSProjects/blob/main/ColesBurgers/mainPage.png?raw=true
+- :paperclip: https://github.com/CCianfloneDev/HTML-CSSProjects/blob/main/ColesBurgers/mainPage.png?raw=true
