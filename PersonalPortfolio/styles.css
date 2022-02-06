@@ -14,7 +14,12 @@
 	{
 		font-size: 70px;
 	}
-	#content p
+	#body-header-content p
+	{
+		position: relative;
+		text-align: center;
+	}
+	#inner-header-content p
 	{
 		position: relative;
 		text-align: center;
@@ -108,14 +113,21 @@ a
    justify-content: center;
 }
 
-#content p
+#body-header-content p
 {
 	position: relative;
 	word-break: break-all;
 	color: white;
 }
+#inner-header-content p
+{
+	position: relative;
+	word-break: break-all;
+	color: black;
+	font-size: 20px;
+}
 
-#content
+#body-header-content
 {
 	width: 90%;
 	margin: 10px auto;
@@ -130,15 +142,24 @@ a
 									99%, rgba(71,68,68,1) 100%);
 }
 
-#content h2
+#inner-header-content
+{
+	width: 60%;
+	margin: 10px auto;
+	padding: 5px;
+	background-color: whitesmoke;
+	border: 3px solid white;
+	border-radius: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#body-header-content h2
 {
 	font-size: 24px;
 	color: white;
 	text-shadow: 1px 1px 2px #A5AFBD;
 	text-align: center;
 }
-
-
 
 /*CSS SEPERATE FOR SOCIAL MEDIA PAGE*/
 #social_content
