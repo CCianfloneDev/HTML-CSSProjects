@@ -1,4 +1,4 @@
-@media(min-width: 640px)
+@media(min-width: 768px)
 {
 	nav ul
 	{
@@ -29,6 +29,16 @@
 		position: relative;
 		text-align: center;
 	}
+	.show-on-large
+	{
+		display: block !important;
+	}
+	.show-on-large img
+	{
+		padding-left: 30px;
+		max-height: 90%;
+		max-width: 90%;
+	}
 }
 
 header
@@ -52,7 +62,7 @@ header h1
 	text-align: center;
 	color: white;
 	font-family: 'Raleway', sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 body
@@ -103,7 +113,7 @@ nav ul li:hover, nav ul li a:focus
 	background-color: #939AA4;
 }
 
-a 
+li a 
 {
   /* This flexbox code stretches the link's clickable 
    * area to fit its parent block. */
@@ -160,6 +170,72 @@ a
 	text-shadow: 1px 1px 2px #A5AFBD;
 	text-align: center;
 }
+
+#linkedin-badge
+{
+   display: flex; 
+   flex-grow: 1; 
+   flex-shrink: 1; 
+   justify-content: center;
+}
+
+/*CSS SEPERATE FOR PROJECTS PAGE*/
+#project-title
+{
+	text-align: center;
+	background-color: grey;
+	padding: 5px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10px;
+}
+#project-title a
+{
+	display: flex; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    justify-content: center;
+	color: white;
+	text-decoration: none;
+}
+
+#project-title:hover
+{
+	background-color: #939AA4;
+}
+
+/* These two media queries change the photo that is displayed for zoo keeping system*/
+@media screen and (max-width: 768px)
+{
+	.show-on-large
+	{
+		display: none !important;
+	}
+	.show-on-small
+	{
+		display: block !important;
+	}
+	.start-menu
+	{
+		max-width: 100%;
+	}
+	.animal-menu2
+	{
+		max-width: 100%;
+	}
+}
+@media screen and (min-width: 768px)
+{
+	.show-on-large
+	{
+		display: block !important;
+	}
+	.show-on-small
+	{
+		display: none !important;
+	}
+}
+
 
 /*CSS SEPERATE FOR SOCIAL MEDIA PAGE*/
 #social_content
