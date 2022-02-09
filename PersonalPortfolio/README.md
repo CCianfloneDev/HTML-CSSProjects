@@ -1,4 +1,4 @@
-#ARCHIVED - Due to replacement with github.io repo#
+# ARCHIVED - Due to replacement with github.io repo #
 
 ## Personal portfolio project ##
 
